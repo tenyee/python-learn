@@ -32,7 +32,7 @@ os.mkdir(gDir)
 files = GetImagePaths(gRoot)
 for i in files:
 	if CheckImages(i, gPattern):
-		shutil.copy(i, 'pic')
+		shutil.copy(i, gDir)
 
 
 
